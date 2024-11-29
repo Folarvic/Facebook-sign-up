@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+    <h1 class="facebook-title">facebook</h1>
+<div class="form-container">
+    <h2>Create a new account</h2>
+    <p>It's quick and easy.</p>
+    <hr>
+    <form>
+        <div class="name">
+        <input type="text" placeholder="First name" required>
+        <input type="text" placeholder="Surname" required>
+        </div>
+
+        <div class="Date">
+        <label for="dob">Date of birth</label><br>
+        <select id="day" required>
+            <option>Day</option>
+            <!-- Add options 1 to 31 here -->
+        </select>
+        <select id="month" required>
+            <option>Month</option>
+            <!-- Add options Jan to Dec here -->
+        </select>
+        <select id="year" required>
+            <option>Year</option>
+            <!-- Add options for years here -->
+        </select>
+        </div>
+        <div class="gender">
+        <label for="gender">Gender</label><br>
+        </div>
+        <div class="gender-options">
+            <label><input type="radio" name="gender" value="Female"> Female</label>
+            <label><input type="radio" name="gender" value="Male"> Male</label>
+            <label><input type="radio" name="gender" value="Custom"> Custom</label>
+        </div>
+        <div class="NumPass">
+        <input type="email" placeholder="Mobile number or email address" required>
+        <input type="password" placeholder="New Password" required>
+        </div>
+        <div class="tiny">People who use our service may have uploaded your contact information to Facebook. Learn more. 
+            <br><br>
+        By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</div>
+        <button type="submit">Sign Up</button>
+        <a href="#">Already have an account?</a>
+        </div>
+    </form>
+    
+</div>
+<div class="language-container">
+    <p>languages</p>
+</div>
+
+</body>
+</html>
